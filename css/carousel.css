@@ -40,6 +40,7 @@ body {
   height: 400px;
   background-color: #777;
 }
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -211,10 +212,10 @@ body {
     border-color: rgba(61,197,93,1);
 }
 
-  .section-primary{
-        background-color: rgba(61,197,93,1) !important;
-      padding:5px !important;
-    }
+.section-primary{
+    background-color: rgba(61,197,93,1) !important;
+    padding:5px !important;
+}
     
 
 
@@ -278,27 +279,14 @@ body {
     margin-left: -40px;
 } 
     
-    .section2 h1{
-        text-align: left;
+.section2 h1{
+    text-align: left;
     margin-left: -40px;
     color: rgba(61,197,93,1);
     margin-top: 60px; 
 }
     
-    .button{
-    
-    background-color: rgba(61,197,93,1);
-    text-align: center;
-    margin-top: 25px;
-    margin-left: 300px;
-    color: black;
-    border-radius: 20px;
-    padding: 12px 28px;
-    margin-bottom: 10px;
-    border-color: rgba(61,197,93,1);
-}
-    
-    .section-primary{
+.section-primary{
         background-color: rgba(61,197,93,1) !important;
         padding: inherit;
     }
@@ -307,7 +295,7 @@ body {
 
 @media (min-width: 992px) {
   
-    .carousel {
+.carousel {
   height: 600px;
   margin-bottom: 0px;
 }
@@ -335,29 +323,17 @@ body {
     margin-top: 90px;
     margin-left: -60px;
 }    
-    .section2 h1{
-        text-align: left;
+    
+.section2 h1{
+    text-align: left;
     margin-left: -60px;
     color: rgba(61,197,93,1);
     margin-top: 60px; 
 }
     
-    .button{
-    
-    background-color: rgba(61,197,93,1);
-    text-align: center;
-    margin-top: 25px;
-    margin-left: 300px;
-    color: black;
-    border-radius: 20px;
-    padding: 12px 28px;
-    margin-bottom: 10px;
-    border-color: rgba(61,197,93,1);
-}
-    
-    .section-primary{
-        background-color: rgba(61,197,93,1) !important;
-        padding: inherit;
+.section-primary{
+    background-color: rgba(61,197,93,1) !important;
+    padding: inherit;
     }
     
 }
