@@ -4,7 +4,7 @@
 
 body {
   padding-bottom: 2px;
-  color: #5a5a5a;
+  color: black;
 }
 
 
@@ -22,6 +22,17 @@ body {
   z-index: 10;
 }
 
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+#navbar a{
+    color:  white;
+}
+
+#navbar a:hover{
+    color: rgba(23, 109, 29, 1);
+}
 
 
 /* Declare heights because of positioning of img element */
@@ -45,13 +56,8 @@ body {
     background-color: rgba(61,197,93,1);
 }
 
-.navbar-brand {
-    color: white;
-}
 
-#navbar a{
-    color:  white;
-}
+
 
 
 .navbar-static-top{
@@ -73,6 +79,18 @@ body {
 .section3{
     
     background-color: rgba(61,197,93,1);
+}
+
+.section3 h1{
+    color: white;
+}
+
+.section4{
+    color: rgba(61,197,93,1);
+}
+.section4 h1{
+    color: rgba(61,197,93,1);
+    margin-bottom: 40px;
 }
 
 .section {
@@ -144,6 +162,29 @@ body {
     color: rgba(61,197,93,1);
     margin-top: 60px; 
 }
+
+.section4 h3{
+    margin-bottom: 40;
+}
+
+.glyphicon {
+    font-size: 100px;
+}
+
+.navbar-static-top{
+    border-color: rgba(61,197,93,1);
+}
+
+  .section-primary{
+        background-color: rgba(61,197,93,1) !important;
+      padding:5px !important;
+    }
+    
+
+
+/* Footer*/
+
+
 
 /* Featurettes
 ------------------------- */
@@ -221,6 +262,11 @@ body {
     border-color: rgba(61,197,93,1);
 }
     
+    .section-primary{
+        background-color: rgba(61,197,93,1) !important;
+        padding: inherit;
+    }
+    
 }
 
 @media (min-width: 992px) {
@@ -272,5 +318,10 @@ body {
     margin-bottom: 10px;
     border-color: rgba(61,197,93,1);
 }
+    
+    .section-primary{
+        background-color: rgba(61,197,93,1) !important;
+        padding: inherit;
+    }
     
 }
