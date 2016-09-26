@@ -208,6 +208,19 @@ body {
     margin-top: 60px; 
 }
     
+    .button{
+    
+    background-color: rgba(61,197,93,1);
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 300px;
+    color: black;
+    border-radius: 20px;
+    padding: 12px 28px;
+    margin-bottom: 10px;
+    border-color: rgba(61,197,93,1);
+}
+    
 }
 
 @media (min-width: 992px) {
@@ -245,6 +258,19 @@ body {
     margin-left: -60px;
     color: rgba(61,197,93,1);
     margin-top: 60px; 
+}
+    
+    .button{
+    
+    background-color: rgba(61,197,93,1);
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 300px;
+    color: black;
+    border-radius: 20px;
+    padding: 12px 28px;
+    margin-bottom: 10px;
+    border-color: rgba(61,197,93,1);
 }
     
 }
