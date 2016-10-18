@@ -206,6 +206,12 @@ body {
 
 .glyphicon {
     font-size: 100px;
+    text-decoration: none;
+    color: rgba(61,197,93,1);
+}
+
+.glyphicon a: hover{
+    text-decoration: none;
 }
 
 .navbar-static-top{
@@ -215,6 +221,19 @@ body {
 .section-primary{
     background-color: rgba(61,197,93,1) !important;
     padding:5px !important;
+}
+
+.icon-design
+
+.icon-design a:link {
+    text-decoration: none;
+    color: rgba(61,197,93,1);
+    
+}
+
+.icon-design a:hover {
+    text-decoration: none;
+    
 }
     
 
