@@ -62,6 +62,7 @@ h2 {
     font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #0E9CD6;
 }
 
 hr.botm-line {
@@ -170,7 +171,7 @@ banner
 
 .affix .navbar-nav > li > a:hover,
 .affix .navbar-nav > li > a:focus {
-    background-color: rgba(12, 184, 182) !important;
+    background-color: rgb(12, 184, 182) !important;
 }
 
 #banner {
@@ -297,8 +298,20 @@ services
 About
 ***************************************/
 
+.members_names {
+    margin-top: 20px;
+    text-align: center;
+    color:#E4BF87;
+}
+
+.members {
+    margin-top: 20px;
+    text-align: center;
+}
+
 #quote {
     margin: 50px;
+    color: #0E9CD6;
 }
 
 /***************************************
